@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="NodeJS" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://E:/NodeJs/lib" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://E:/NodeJs/lib" />
+    </CLASSES>
+    <SOURCES />
+  </library>
+</component>

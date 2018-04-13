@@ -9,5 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Node" level="application" />
+    <orderEntry type="library" name="NodeJS" level="project" />
   </component>
 </module>
