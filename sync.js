@@ -40,25 +40,25 @@
 //     console.log('done!')
 // })
 
-function getTime () {
-    return new Promise((resolve,reject) => {
-        setTimeout( ()=> {
-            const date = Date.now()
-            if(date % 2 == 0) {
-                resolve(date)
-            }else {
-                reject(date)
-            }
-        },500)
-    })
-}
+// function getTime () {
+//     return new Promise((resolve,reject) => {
+//         setTimeout( ()=> {
+//             const date = Date.now()
+//             if(date % 2 == 0) {
+//                 resolve(date)
+//             }else {
+//                 reject(date)
+//             }
+//         },500)
+//     })
+// }
 
-async function printDate () {
-    const res = await getTime().then( (date) => {
-        console.log(`为偶数: ${date}`)
-    }).catch( (err) => {
-        console.log('为奇数')
-    })
-    // console.log(`为偶数: ${res}`)
-}
-printDate()
+// async function printDate () {
+//     const res = await getTime().then( (date) => {
+//         console.log(`为偶数: ${date}`)
+//     }).catch( (err) => {
+//         console.log('为奇数')
+//     })
+//     // console.log(`为偶数: ${res}`)
+// }
+// printDate()
